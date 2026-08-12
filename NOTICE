@@ -1,0 +1,14 @@
+NovoMCP novomcp-neb
+Copyright 2026 Quant NexusAI Inc. (NovoMCP)
+
+The code in this repository is licensed under the Apache License 2.0 (see LICENSE).
+
+This service orchestrates the following components, each under its own license.
+None are redistributed in this repository; they are installed at container-build
+or run time:
+
+  xTB (Grimme lab) — LGPL-3.0. Semi-empirical energies and forces, invoked as a
+    subprocess. The container fetches the official binary release at build time.
+    https://github.com/grimme-lab/xtb
+  ASE (Atomic Simulation Environment) — LGPL-2.1-or-later. NEB optimizer.
+    https://gitlab.com/ase/ase

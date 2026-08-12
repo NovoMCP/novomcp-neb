@@ -1,0 +1,11 @@
+fastapi==0.115.12
+uvicorn==0.34.0
+pydantic==2.11.1
+numpy>=1.24.3
+httpx>=0.25.0
+
+# ASE for NEB optimizer (no tblite — xTB runs via subprocess)
+ase>=3.22.0
+
+# Redis for async job tracking
+redis>=5.0.0
